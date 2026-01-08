@@ -8,16 +8,14 @@ class AppTheme {
       useMaterial3: true,
       primaryColor: AppColors.primaryBlack,
       scaffoldBackgroundColor: AppColors.bgPureWhite,
-      
+
       // Card Theme
       cardTheme: CardThemeData(
         color: AppColors.cardWidgetBg,
         elevation: 0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       ),
-      
+
       // Color Scheme
       colorScheme: ColorScheme.light(
         primary: AppColors.primaryBlack,
@@ -25,15 +23,14 @@ class AppTheme {
         onPrimary: AppColors.bgPureWhite,
         onSurface: AppColors.primaryBlack,
       ),
-      
+
       // Text Theme with Montserrat
-      textTheme: GoogleFonts.montserratTextTheme(
-        ThemeData.light().textTheme,
-      ).apply(
-        bodyColor: AppColors.primaryBlack,
-        displayColor: AppColors.primaryBlack,
-      ),
-      
+      textTheme: GoogleFonts.montserratTextTheme(ThemeData.light().textTheme)
+          .apply(
+            bodyColor: AppColors.primaryBlack,
+            displayColor: AppColors.primaryBlack,
+          ),
+
       // AppBar Theme
       appBarTheme: AppBarTheme(
         backgroundColor: AppColors.bgPureWhite,
@@ -46,7 +43,7 @@ class AppTheme {
           fontWeight: FontWeight.w600,
         ),
       ),
-      
+
       // Button Themes
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
@@ -62,7 +59,7 @@ class AppTheme {
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         ),
       ),
-      
+
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
           foregroundColor: AppColors.primaryBlack,
@@ -72,7 +69,7 @@ class AppTheme {
           ),
         ),
       ),
-      
+
       // Input Decoration Theme
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
@@ -92,16 +89,12 @@ class AppTheme {
             width: 1.5,
           ),
         ),
-        labelStyle: GoogleFonts.montserrat(
-          color: AppColors.blackWithOpacity,
-        ),
-        hintStyle: GoogleFonts.montserrat(
-          color: AppColors.blackWithOpacity,
-        ),
+        labelStyle: GoogleFonts.montserrat(color: AppColors.blackWithOpacity),
+        hintStyle: GoogleFonts.montserrat(color: AppColors.blackWithOpacity),
       ),
     );
   }
-  
+
   // Prevent instantiation
   AppTheme._();
 }
