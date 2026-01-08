@@ -35,8 +35,8 @@ class WalletTabs extends StatelessWidget {
                     ? AppTextStyles.text16SemiBold.copyWith(
                         fontWeight: FontWeight.w600,
                       )
-                    : AppTextStyles.text16Regular.copyWith(
-                        color: AppColors.blackWithOpacity,
+                    : AppTextStyles.text16SemiBold.copyWith(
+                        color: AppColors.textLightGray,
                       ),
               ),
             ),

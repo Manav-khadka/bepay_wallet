@@ -46,7 +46,7 @@ class MockWalletRepository implements WalletRepository {
       ServiceModel(id: '5', title: 'Travel booking', icon: 'travel_booking'),
       ServiceModel(id: '6', title: 'Gift cards', icon: 'gift_card'),
       ServiceModel(id: '7', title: 'Gold', icon: 'gold'),
-      ServiceModel(id: '8', title: 'Real estate', icon: 'real_estate'),
+      ServiceModel(id: '8', title: 'Real estate', icon: 'real_state'),
       ServiceModel(id: '9', title: 'Finance', icon: 'finance'),
     ];
   }

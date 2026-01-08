@@ -155,9 +155,9 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
             ),
           ),
           title: 'Reward',
-          textStyle: AppTextStyles.text12Regular,
+          textStyle: AppTextStyles.text12SemiBold,
           activeForegroundColor: AppColors.primaryBlack,
-          inactiveForegroundColor: const Color(0xFF6A6A6A),
+          inactiveForegroundColor: AppColors.textLightGray,
         ),
       ),
     ];

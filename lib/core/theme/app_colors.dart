@@ -10,6 +10,7 @@ class AppColors {
 
   // Card Colors
   static const Color cardWidgetBg = Color(0x26C0C0C0); // #C0C0C026
+  static const Color textLightGray = Color(0xFF6A6A6A);
 
   // Prevent instantiation
   AppColors._();
